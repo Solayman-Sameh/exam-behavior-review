@@ -1,0 +1,104 @@
+[
+  {
+    "video": "clip01.mp4",
+    "frames": 488,
+    "total_frames": 488,
+    "fps": 24.0,
+    "events": [
+      {
+        "track_id": 2,
+        "behavior_type": "peer_directed_looking",
+        "video_time_s": 4.958333333333333,
+        "confidence": 0.7090752823043337,
+        "evidence": "Head shift +0.190 shoulder widths toward right neighbor #1; 0.87s observed, 1 distinct episodes (sustained). Heuristic evidence score, not eye gaze or a cheating probability."
+      },
+      {
+        "track_id": 2,
+        "behavior_type": "peer_directed_looking",
+        "video_time_s": 11.541666666666666,
+        "confidence": 0.6987269646357898,
+        "evidence": "Head shift +0.188 shoulder widths toward right neighbor #1; 0.37s observed, 2 distinct episodes (repeated). Heuristic evidence score, not eye gaze or a cheating probability."
+      }
+    ]
+  },
+  {
+    "video": "clip02.mp4",
+    "frames": 256,
+    "total_frames": 256,
+    "fps": 23.976,
+    "events": [
+      {
+        "track_id": 2,
+        "behavior_type": "phone_detected",
+        "video_time_s": 0.29195862529195865,
+        "confidence": 0.6640968918800354,
+        "evidence": "Phone #1 spatially associated for 0.209s. Detector score; not a cheating probability."
+      },
+      {
+        "track_id": 2,
+        "behavior_type": "peer_directed_looking",
+        "video_time_s": 2.544210877544211,
+        "confidence": 0.8047845885100783,
+        "evidence": "Head shift -0.416 shoulder widths toward left neighbor #1; 0.88s observed, 1 distinct episodes (sustained). Heuristic evidence score, not eye gaze or a cheating probability."
+      },
+      {
+        "track_id": 2,
+        "behavior_type": "peer_directed_looking",
+        "video_time_s": 9.50950950950951,
+        "confidence": 0.7966666666666666,
+        "evidence": "Head shift -0.407 shoulder widths toward left neighbor #1; 0.38s observed, 2 distinct episodes (repeated). Heuristic evidence score, not eye gaze or a cheating probability."
+      }
+    ]
+  },
+  {
+    "video": "clip03.mp4",
+    "frames": 226,
+    "total_frames": 226,
+    "fps": 23.976023976023978,
+    "events": [
+      {
+        "track_id": 3,
+        "behavior_type": "peer_directed_looking",
+        "video_time_s": 3.169833333333333,
+        "confidence": 0.7073530058955658,
+        "evidence": "Head shift -0.235 shoulder widths toward left neighbor #2; 0.88s observed, 1 distinct episodes (sustained). Heuristic evidence score, not eye gaze or a cheating probability."
+      },
+      {
+        "track_id": 3,
+        "behavior_type": "peer_directed_looking",
+        "video_time_s": 8.466791666666666,
+        "confidence": 0.5516155766295452,
+        "evidence": "Head shift -0.137 shoulder widths toward left neighbor #2; 0.38s observed, 2 distinct episodes (repeated). Heuristic evidence score, not eye gaze or a cheating probability."
+      }
+    ]
+  },
+  {
+    "video": "clip04.mp4",
+    "frames": 261,
+    "total_frames": 261,
+    "fps": 23.976023976023978,
+    "events": [
+      {
+        "track_id": 3,
+        "behavior_type": "head_raise",
+        "video_time_s": 1.0427083333333333,
+        "confidence": 0.809035938706031,
+        "evidence": "Frontward head raise -0.207 shoulder widths; face-local pitch change -0.644; 0.38s observed, 1 distinct episodes (sustained). Heuristic evidence score, not eye gaze or a cheating probability."
+      },
+      {
+        "track_id": 3,
+        "behavior_type": "head_raise",
+        "video_time_s": 4.462791666666666,
+        "confidence": 0.8194967009381736,
+        "evidence": "Frontward head raise -0.213 shoulder widths; face-local pitch change -0.676; 0.38s observed, 2 distinct episodes (repeated). Heuristic evidence score, not eye gaze or a cheating probability."
+      },
+      {
+        "track_id": 3,
+        "behavior_type": "head_raise",
+        "video_time_s": 9.342666666666666,
+        "confidence": 0.8633647132130408,
+        "evidence": "Frontward head raise -0.174 shoulder widths; face-local pitch change -0.630; 0.38s observed, 3 distinct episodes (repeated). Heuristic evidence score, not eye gaze or a cheating probability."
+      }
+    ]
+  }
+]

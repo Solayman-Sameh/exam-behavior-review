@@ -1,0 +1,81 @@
+# Local frozen checkpoints and pre-migration material
+/checkpoitns_to_execution/
+/local_archive/
+/work/
+/pathcheck-*/
+
+# Generated app data and evaluation evidence
+/alerts/
+/reports/
+/outputs/
+/runs/
+/build/
+/dist/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Model binaries; keep the public identity/download manifest
+/models/*
+!/models/manifest.json
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.zip
+
+# Large/local media except the four reference videos and their manifest
+/videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+!/test_videos/
+!/test_videos/clip01.mp4
+!/test_videos/clip02.mp4
+!/test_videos/clip03.mp4
+!/test_videos/clip04.mp4
+!/test_videos/manifest.json
+!/test_videos/README.md
+!/assets/demo.mp4
+
+# Environment, credentials and caches
+.env
+.env.*
+!.env.example
+credentials.json
+service-account*.json
+serviceAccount*.json
+kaggle.json
+*.pem
+*.key
+*.local
+README.local.md
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Reference media in this folder is intentionally eligible for Git.
+!/test_videos/**
+
+# Local project-management notes and completed implementation planning.
+# User-facing guides, validation, thresholds and baseline fixtures stay versioned.
+/STATUS.md
+/DECISIONS.md
+/docs/GUI_Implementation_Plan.md
+
+# Common local tools and unfinished downloads.
+.vscode/
+.idea/
+.ruff_cache/
+.mypy_cache/
+*.log
+*.tmp
+*.part
+Thumbs.db
+.DS_Store

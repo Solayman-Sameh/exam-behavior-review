@@ -1,0 +1,14 @@
+{
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "packages": {
+    "ultralytics": "8.4.191",
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "opencv-python": "5.0.0.93",
+    "lap": "0.5.13",
+    "numpy": "2.4.6",
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3"
+  },
+  "note": "Existing main environment; a clean installation has not been tested."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "clip": 1,
+    "original": "WhatsApp Video 2026-10-24 at 5.59.33 PM (1)(2).mp4",
+    "path": "test_videos/clip01.mp4",
+    "sha256": "d3a86ce73ae61e93825e2fdd603d429746173d5ceb61f9e283bb86a241cf7620"
+  },
+  {
+    "clip": 2,
+    "original": "WhatsApp Video 2026-10-24 at 5.59.33 PM(2).mp4",
+    "path": "test_videos/clip02.mp4",
+    "sha256": "beb78a63910f9f7ff16df4a75c693af5388d21a7378a624abcfc143123f7e1e4"
+  },
+  {
+    "clip": 3,
+    "original": "WhatsApp Video 2026-10-24 at 5.59.34 PM (1)(2).mp4",
+    "path": "test_videos/clip03.mp4",
+    "sha256": "91ec434546e1ea90cd77412a4f40f91ceb2158212ffd6e03a8a9aaedd733bbae"
+  },
+  {
+    "clip": 4,
+    "original": "WhatsApp Video 2026-10-24 at 5.59.34 PM(2).mp4",
+    "path": "test_videos/clip04.mp4",
+    "sha256": "de12893ea2ccda26b2db8a1a70ee66905fc3809c4f96a13e459974f5dbdedd14"
+  }
+]

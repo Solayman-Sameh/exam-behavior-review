@@ -1,0 +1,67 @@
+# Accepted threshold values
+
+Values copied unchanged from the accepted checkpoint. See ALGORITHM.md for formulas, units and decision rules. Time suffix _s denotes seconds; confidence gates are model scores. Pixel gates scale with frame width relative to 768 pixels. Displacement is normalized by shoulder width except the face-local raise confirmation, which uses eye separation.
+
+## Execution, tracking and phone settings
+
+| Key | Accepted value |
+|---|---|
+| `layer` | `1` |
+| `person_weights` | `models/yolo11n-pose.pt` |
+| `phone_weights` | `models/yolo11n.pt` |
+| `device` | `0` |
+| `detector_imgsz` | `auto` |
+| `person_iou` | `0.4` |
+| `phone_iou` | `0.45` |
+| `person_conf` | `0.1` |
+| `phone_conf` | `0.35` |
+| `track_high_thresh` | `0.25` |
+| `track_low_thresh` | `0.1` |
+| `new_track_thresh` | `0.25` |
+| `track_buffer` | `30` |
+| `match_thresh` | `0.8` |
+| `phone_person_max_distance` | `225` |
+| `association_box_margin` | `0.0` |
+| `association_ambiguity_margin` | `0.08` |
+| `phone_alert_min_confidence` | `0.5` |
+| `phone_max_aspect_ratio` | `3.0` |
+| `phone_persistence_s` | `0.2083333333` |
+| `episode_release_s` | `0.5` |
+| `cooldown_seconds` | `3.0` |
+| `screenshot_quality` | `90` |
+| `torch_threads` | `4` |
+
+## Head settings
+
+| Key | Accepted value |
+|---|---|
+| `head_keypoint_conf` | `0.3` |
+| `head_allow_partial_alerts` | `True` |
+| `head_min_good_evidence_s` | `0.15` |
+| `head_turn_threshold` | `0.12` |
+| `head_baseline_s` | `0.25` |
+| `head_baseline_min_samples` | `6` |
+| `head_min_shoulder_width` | `30` |
+| `head_min_ear_width` | `6` |
+| `head_min_person_height_fraction` | `0.22` |
+| `head_upward_threshold` | `0.1` |
+| `head_upward_dominance_ratio` | `1.25` |
+| `head_neighbor_max_distance` | `400` |
+| `head_neighbor_row_tolerance` | `0.2` |
+| `head_neighbor_min_height_ratio` | `0.4` |
+| `head_neighbor_max_height_ratio` | `1.55` |
+| `head_min_episode_s` | `0.35` |
+| `head_episode_release_s` | `0.25` |
+| `head_repeat_count` | `2` |
+| `head_repeat_window_s` | `15.0` |
+| `head_sustained_s` | `0.85` |
+| `head_unknown_gap_s` | `0.25` |
+| `head_state_expiry_s` | `20.0` |
+| `head_alert_release_s` | `0.35` |
+| `head_cooldown_s` | `0.35` |
+| `head_eye_conf` | `0.6` |
+| `head_min_eye_width` | `20` |
+| `head_forward_enabled` | `True` |
+| `head_forward_threshold` | `0.1` |
+| `head_forward_face_threshold` | `0.45` |
+| `head_forward_sustained_s` | `0.35` |

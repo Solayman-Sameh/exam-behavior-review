@@ -1,0 +1,29 @@
+# Layer 0 only. Later layers remain disabled until this layer passes.
+layer: 0
+person_weights: models/yolo11n-pose.pt
+phone_weights: models/yolo11n.pt
+device: 0
+detector_imgsz: auto
+person_iou: 0.40
+phone_iou: 0.45
+person_conf: 0.10
+phone_conf: 0.35
+track_high_thresh: 0.25
+track_low_thresh: 0.10
+new_track_thresh: 0.25
+track_buffer: 30
+match_thresh: 0.80
+# Association threshold scales with video width; require phone near/inside body.
+phone_person_max_distance: 225
+association_box_margin: 0.0
+association_ambiguity_margin: 0.08
+# Conservative onset checks; continued low-score track observations may maintain
+# an already active episode but cannot start a new alert.
+phone_alert_min_confidence: 0.50
+phone_max_aspect_ratio: 3.0
+# Five observations at 24 fps = 0.208 seconds of evidence.
+phone_persistence_s: 0.2083333333
+episode_release_s: 0.5
+cooldown_seconds: 3.0
+screenshot_quality: 90
+torch_threads: 4

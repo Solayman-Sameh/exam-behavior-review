@@ -1,0 +1,11 @@
+# Versions verified in the existing main environment. Python 3.11.
+# For CUDA 12.1 torch/torchvision installation, see docs/USER_GUIDE.md.
+ultralytics==8.4.191
+torch==2.5.1
+torchvision==0.20.1
+opencv-python==5.0.0.93
+lap==0.5.13
+numpy==2.4.6
+Pillow==12.3.0
+PyYAML==6.0.3
+ttkbootstrap==1.20.4
